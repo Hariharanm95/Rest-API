@@ -2,7 +2,7 @@ require('dotenv').config()
 const express = require('express')
 const mongoose = require('mongoose')
 const app = express()
-const productRoutes = require('./routes/ProductRoutes.js')
+const productRoutes = require('./routes/productRoutes.js')
 const errorMiddleware = require('./middleware/errorMiddleware.js')
 var cors = require('cors')
 
